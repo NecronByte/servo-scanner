@@ -1,0 +1,12 @@
+[package]
+name = "servo-scanner"
+version = "0.1.0"
+authors = ["NecronByte"]
+edition = "2024"
+description = "A terminal-driven port scanner with a Warhammer-tech flavor."
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
+clap = { version = "4", features = ["derive"] }
+colored = "2.0"
